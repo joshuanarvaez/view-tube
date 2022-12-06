@@ -40,9 +40,9 @@ a {
 }
 
 .search-bar{
-  border:none;
-  outline:none;
-  width:350px;
+  border: none;
+  outline: none;
+  width: 350px;
 }
 
 .category-btn{
@@ -51,7 +51,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: start;
-  cursor:pointer;
+  cursor: pointer;
   background: transparent;
   outline: none;
   border: none;
@@ -72,6 +72,9 @@ a {
   .copyright{
     display:none !important;
   }
+  .view-tube-logo{
+    width: 150px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -84,5 +87,11 @@ a {
   }
   .search-bar{
     width:200px;
+  }
+}
+
+@media screen and (max-width:460px) {
+  .view-tube-logo{
+    display: none;
   }
 }
